@@ -1,0 +1,471 @@
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local MainFirst = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local Aimbot = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Split = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local AutoF = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local JumpPower = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Noclip = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local SecondPageButton = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local WalkSpeed = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_10 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local UICorner_11 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local UICorner_12 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+local UICorner_13 = Instance.new("UICorner")
+local MainSecond = Instance.new("Frame")
+local UICorner_14 = Instance.new("UICorner")
+local TextLabel_5 = Instance.new("TextLabel")
+local UICorner_15 = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+local Split_2 = Instance.new("Frame")
+local UICorner_16 = Instance.new("UICorner")
+local TextLabel_6 = Instance.new("TextLabel")
+local UICorner_17 = Instance.new("UICorner")
+local TextLabel_7 = Instance.new("TextLabel")
+local UICorner_18 = Instance.new("UICorner")
+local FirstPageButton = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local TPBtn = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local Username = Instance.new("TextBox")
+local UICorner_21 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+main.Position = UDim2.new(0.226705089, 0, 0.23694779, 0)
+main.Size = UDim2.new(0, 543, 0, 309)
+main.Active = true
+main.Draggable = true
+
+UICorner.Parent = main
+
+MainFirst.Name = "MainFirst"
+MainFirst.Parent = main
+MainFirst.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+MainFirst.Position = UDim2.new(0, 0, 0.161812305, 0)
+MainFirst.Size = UDim2.new(0, 543, 0, 259)
+MainFirst.Visible = false
+
+UICorner_2.Parent = MainFirst
+
+Aimbot.Name = "Aimbot"
+Aimbot.Parent = MainFirst
+Aimbot.BackgroundColor3 = Color3.fromRGB(73, 82, 255)
+Aimbot.Position = UDim2.new(0.0976058915, 0, 0.715035379, 0)
+Aimbot.Size = UDim2.new(0, 144, 0, 40)
+Aimbot.Font = Enum.Font.SourceSans
+Aimbot.Text = "AimBot"
+Aimbot.TextColor3 = Color3.fromRGB(0, 0, 0)
+Aimbot.TextSize = 16.000
+
+UICorner_3.Parent = Aimbot
+
+Split.Name = "Split"
+Split.Parent = MainFirst
+Split.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Split.Position = UDim2.new(0.462246776, 0, -0.00421087909, 0)
+Split.Size = UDim2.new(0, 40, 0, 259)
+
+UICorner_4.Parent = Split
+
+AutoF.Name = "AutoF"
+AutoF.Parent = MainFirst
+AutoF.BackgroundColor3 = Color3.fromRGB(73, 82, 255)
+AutoF.Position = UDim2.new(0.0976058915, 0, 0.462720692, 0)
+AutoF.Size = UDim2.new(0, 144, 0, 40)
+AutoF.Font = Enum.Font.SourceSans
+AutoF.Text = "AutoFarm (Hold Gun)"
+AutoF.TextColor3 = Color3.fromRGB(0, 0, 0)
+AutoF.TextSize = 16.000
+
+UICorner_5.Parent = AutoF
+
+JumpPower.Name = "JumpPower"
+JumpPower.Parent = MainFirst
+JumpPower.BackgroundColor3 = Color3.fromRGB(255, 41, 52)
+JumpPower.Position = UDim2.new(0.646408796, 0, 0.715035439, 0)
+JumpPower.Size = UDim2.new(0, 144, 0, 40)
+JumpPower.Font = Enum.Font.SourceSans
+JumpPower.Text = "JumpPower"
+JumpPower.TextColor3 = Color3.fromRGB(0, 0, 0)
+JumpPower.TextSize = 16.000
+
+UICorner_6.Parent = JumpPower
+
+Noclip.Name = "Noclip"
+Noclip.Parent = MainFirst
+Noclip.BackgroundColor3 = Color3.fromRGB(255, 41, 52)
+Noclip.Position = UDim2.new(0.646408796, 0, 0.231810153, 0)
+Noclip.Size = UDim2.new(0, 144, 0, 40)
+Noclip.Font = Enum.Font.SourceSans
+Noclip.Text = "Noclip (Z)"
+Noclip.TextColor3 = Color3.fromRGB(0, 0, 0)
+Noclip.TextSize = 16.000
+
+UICorner_7.Parent = Noclip
+
+SecondPageButton.Name = "SecondPageButton"
+SecondPageButton.Parent = MainFirst
+SecondPageButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SecondPageButton.Position = UDim2.new(0.887661159, 0, 0.910122275, 0)
+SecondPageButton.Size = UDim2.new(0, 61, 0, 23)
+SecondPageButton.Font = Enum.Font.SourceSans
+SecondPageButton.Text = "--->"
+SecondPageButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+SecondPageButton.TextSize = 20.000
+
+UICorner_8.Parent = SecondPageButton
+
+WalkSpeed.Name = "WalkSpeed"
+WalkSpeed.Parent = MainFirst
+WalkSpeed.BackgroundColor3 = Color3.fromRGB(255, 41, 52)
+WalkSpeed.Position = UDim2.new(0.646408796, 0, 0.462720692, 0)
+WalkSpeed.Size = UDim2.new(0, 144, 0, 40)
+WalkSpeed.Font = Enum.Font.SourceSans
+WalkSpeed.Text = "WalkSpeed"
+WalkSpeed.TextColor3 = Color3.fromRGB(0, 0, 0)
+WalkSpeed.TextSize = 16.000
+
+UICorner_9.Parent = WalkSpeed
+
+TextLabel.Parent = MainFirst
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 41, 52)
+TextLabel.Position = UDim2.new(0.53591162, 0, -0.00807187427, 0)
+TextLabel.Size = UDim2.new(0, 251, 0, 43)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Local Player"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 18.000
+
+UICorner_10.Parent = TextLabel
+
+TextLabel_2.Parent = MainFirst
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(69, 69, 255)
+TextLabel_2.Position = UDim2.new(0, 0, -0.00807187427, 0)
+TextLabel_2.Size = UDim2.new(0, 251, 0, 43)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Main"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 18.000
+
+UICorner_11.Parent = TextLabel_2
+
+TextLabel_3.Parent = main
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(16, 202, 13)
+TextLabel_3.Size = UDim2.new(0, 543, 0, 50)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Zombie Hub | Zombie Attack"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextSize = 20.000
+
+UICorner_12.Parent = TextLabel_3
+
+TextLabel_4.Parent = main
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(202, 0, 3)
+TextLabel_4.Position = UDim2.new(0, 0, -0.000874638557, 0)
+TextLabel_4.Size = UDim2.new(0, 164, 0, 50)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "V To CLose GUI!"
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.TextSize = 17.000
+
+UICorner_13.Parent = TextLabel_4
+
+MainSecond.Name = "MainSecond"
+MainSecond.Parent = main
+MainSecond.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+MainSecond.Position = UDim2.new(0, 0, 0.161812305, 0)
+MainSecond.Size = UDim2.new(0, 543, 0, 259)
+
+UICorner_14.Parent = MainSecond
+
+TextLabel_5.Parent = MainSecond
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextLabel_5.Size = UDim2.new(0, 200, 0, 51)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "Made By : Dinodren123"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 20.000
+
+UICorner_15.Parent = TextLabel_5
+
+ImageLabel.Parent = MainSecond
+ImageLabel.BackgroundColor3 = Color3.fromRGB(0, 25, 255)
+ImageLabel.Position = UDim2.new(0.0920810103, 0, 0.501930535, 0)
+ImageLabel.Size = UDim2.new(0, 100, 0, 100)
+ImageLabel.Image = "rbxassetid://757581522"
+
+Split_2.Name = "Split"
+Split_2.Parent = MainSecond
+Split_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Split_2.Position = UDim2.new(0.462246776, 0, -0.00421087909, 0)
+Split_2.Size = UDim2.new(0, 40, 0, 259)
+
+UICorner_16.Parent = Split_2
+
+TextLabel_6.Parent = MainSecond
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextLabel_6.Position = UDim2.new(0, 0, 0.305019319, 0)
+TextLabel_6.Size = UDim2.new(0, 200, 0, 51)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = "Welcome!"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 20.000
+
+UICorner_17.Parent = TextLabel_6
+
+TextLabel_7.Parent = MainSecond
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 41, 52)
+TextLabel_7.Position = UDim2.new(0.53591162, 0, -0.00807187427, 0)
+TextLabel_7.Size = UDim2.new(0, 251, 0, 43)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = "Extra"
+TextLabel_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.TextSize = 18.000
+
+UICorner_18.Parent = TextLabel_7
+
+FirstPageButton.Name = "FirstPageButton"
+FirstPageButton.Parent = MainSecond
+FirstPageButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+FirstPageButton.Position = UDim2.new(0.887661159, 0, 0.910122275, 0)
+FirstPageButton.Size = UDim2.new(0, 61, 0, 23)
+FirstPageButton.Font = Enum.Font.SourceSans
+FirstPageButton.Text = "<---"
+FirstPageButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+FirstPageButton.TextSize = 20.000
+
+UICorner_19.Parent = FirstPageButton
+
+TPBtn.Name = "TPBtn"
+TPBtn.Parent = MainSecond
+TPBtn.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+TPBtn.Position = UDim2.new(0, 316, 0, 149)
+TPBtn.Size = UDim2.new(0, 200, 0, 50)
+TPBtn.Font = Enum.Font.SourceSans
+TPBtn.Text = "GoTo Player"
+TPBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
+TPBtn.TextSize = 20.000
+
+UICorner_20.Parent = TPBtn
+
+Username.Name = "Username"
+Username.Parent = MainSecond
+Username.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Username.Position = UDim2.new(0.580540359, 0, 0.195916086, 0)
+Username.Size = UDim2.new(0, 200, 0, 50)
+Username.Font = Enum.Font.SourceSans
+Username.Text = "InputUsername"
+Username.TextColor3 = Color3.fromRGB(255, 255, 255)
+Username.TextSize = 20.000
+
+UICorner_21.Parent = Username
+
+-- Scripts:
+
+local function HZRGRNU_fake_script() -- main.LocalScript 
+	local script = Instance.new('LocalScript', main)
+
+	player = game.Players.LocalPlayer
+	
+	player:GetMouse().KeyDown:Connect(function(key)
+		if key == "v" and script.Parent.Visible == false then
+			script.Parent.Visible = true
+		else
+			if key == "v" and script.Parent.Visible == true then
+				script.Parent.Visible = false
+			end
+		end
+	end)
+end
+coroutine.wrap(HZRGRNU_fake_script)()
+local function UKJDLWT_fake_script() -- Aimbot.LocalScript 
+	local script = Instance.new('LocalScript', Aimbot)
+
+	script.Parent.MouseButton1Click:connect(function()
+		local oPlBfNRNfyJz = game.Players.LocalPlayer;local ZtYjkXDgMlxc = "Head";local dAociCiEvJMB = function()local QInaUnazu = math.huge;local J8IhabzuN = nil;for iUIhaztYUbnZ,uUhsabzyuG in next, game.Workspace:GetDescendants() do if uUhsabzyuG:FindFirstChild(ZtYjkXDgMlxc) and oPlBfNRNfyJz.Character:FindFirstChild(ZtYjkXDgMlxc) and not uUhsabzyuG:FindFirstChild('Guns') and uUhsabzyuG.Parent.Name ~= "deadenemies" then local IIhzabUtd = (uUhsabzyuG:FindFirstChild(ZtYjkXDgMlxc).Position-oPlBfNRNfyJz.Character.Head.Position).magnitude;if IIhzabUtd < QInaUnazu then QInaUnazu = IIhzabUtd;J8IhabzuN = uUhsabzyuG;end;end;end;return J8IhabzuN;end;local GtsZsUbJOuJk = oPlBfNRNfyJz:GetMouse();local tZcInsImQQfX = getrawmetatable(game);local sCtxkbklLnmy = tZcInsImQQfX.__index;setreadonly(tZcInsImQQfX,false);tZcInsImQQfX.__index = newcclosure(function(hFcjBtZBXthW,tGNxqMIMabVS)if hFcjBtZBXthW == GtsZsUbJOuJk and tostring(tGNxqMIMabVS) == "Hit" then return dAociCiEvJMB():FindFirstChild(ZtYjkXDgMlxc).CFrame;end;return sCtxkbklLnmy(hFcjBtZBXthW,tGNxqMIMabVS)end)setreadonly(tZcInsImQQfX,true)
+	end)
+	
+end
+coroutine.wrap(UKJDLWT_fake_script)()
+local function LTMIEBI_fake_script() -- AutoF.LocalScript 
+	local script = Instance.new('LocalScript', AutoF)
+
+	script.Parent.MouseButton1Click:connect(function()
+		-- Equilibrium Special Zombie_Attack Auto_Farming Enjoy Heart
+		local groundDistance = 8
+		local Player = game:GetService("Players").LocalPlayer
+		local function getNearest()
+			local nearest, dist = nil, 99999
+			for _,v in pairs(game.Workspace.BossFolder:GetChildren()) do
+				if(v:FindFirstChild("Head")~=nil)then
+					local m =(Player.Character.Head.Position-v.Head.Position).magnitude
+					if(m<dist)then
+						dist = m
+						nearest = v
+					end
+				end
+			end
+			for _,v in pairs(game.Workspace.enemies:GetChildren()) do
+				if(v:FindFirstChild("Head")~=nil)then
+					local m =(Player.Character.Head.Position-v.Head.Position).magnitude
+					if(m<dist)then
+						dist = m
+						nearest = v
+					end
+				end
+			end
+			return nearest
+		end
+		_G.farm2 = true
+		Player.Chatted:Connect(function(m)
+			if(m==";autofarm false")then
+				_G.farm2 = false
+			elseif(m==";autofarm true")then
+				_G.farm2 = true
+			end
+		end)
+		_G.globalTarget = nil
+		game:GetService("RunService").RenderStepped:Connect(function()
+			if(_G.farm2==true)then
+				local target = getNearest()
+				if(target~=nil)then
+					game:GetService("Workspace").CurrentCamera.CFrame = CFrame.new(game:GetService("Workspace").CurrentCamera.CFrame.p, target.Head.Position)
+					Player.Character.HumanoidRootPart.CFrame = (target.HumanoidRootPart.CFrame * CFrame.new(0, groundDistance, 9))
+					_G.globalTarget = target
+				end
+			end
+		end)
+		spawn(function()
+			while wait() do
+				game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
+				game.Players.LocalPlayer.Character.Torso.Velocity = Vector3.new(0,0,0)
+			end
+		end)
+		while wait() do
+			if(_G.farm2==true and _G.globalTarget~=nil and _G.globalTarget:FindFirstChild("Head") and Player.Character:FindFirstChildOfClass("Tool"))then
+				local target = _G.globalTarget
+				game.ReplicatedStorage.Gun:FireServer({["Normal"] = Vector3.new(0, 0, 0), ["Direction"] = target.Head.Position, ["Name"] = Player.Character:FindFirstChildOfClass("Tool").Name, ["Hit"] = target.Head, ["Origin"] = target.Head.Position, ["Pos"] = target.Head.Position,})
+				wait()
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(LTMIEBI_fake_script)()
+local function IVAJEA_fake_script() -- JumpPower.LocalScript 
+	local script = Instance.new('LocalScript', JumpPower)
+
+	script.Parent.MouseButton1Click:connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 100
+	end)
+end
+coroutine.wrap(IVAJEA_fake_script)()
+local function VKQBE_fake_script() -- Noclip.LocalScript 
+	local script = Instance.new('LocalScript', Noclip)
+
+	script.Parent.MouseButton1Click:connect(function()
+		local plr = game:service'Players'.LocalPlayer
+		local char = plr.Character
+		local hum = char:FindFirstChildOfClass'Humanoid'
+		local mouse = plr:GetMouse()
+		on = false
+	
+		mouse.KeyDown:connect(function(key)
+			if key == "z" then
+				if not on then
+					on = true
+				elseif on then
+					on = false
+				end
+			end
+		end)
+	
+		while wait() do
+			if char then
+				hum = char:FindFirstChildOfClass'Humanoid'
+			end
+			if on then
+				hum:ChangeState(11)
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(VKQBE_fake_script)()
+local function DEWO_fake_script() -- SecondPageButton.LocalScript 
+	local script = Instance.new('LocalScript', SecondPageButton)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.Parent.MainFirst.Visible = false
+		script.Parent.Parent.Parent.MainSecond.Visible = true
+	end)
+	
+end
+coroutine.wrap(DEWO_fake_script)()
+local function KNLVEV_fake_script() -- WalkSpeed.LocalScript 
+	local script = Instance.new('LocalScript', WalkSpeed)
+
+	script.Parent.MouseButton1Click:connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
+	end)
+	
+end
+coroutine.wrap(KNLVEV_fake_script)()
+local function TJJX_fake_script() -- ImageLabel.LocalScript 
+	local script = Instance.new('LocalScript', ImageLabel)
+
+	local image = script.Parent
+	image.Image = game.Players:GetUserThumbnailAsync(game.Players.LocalPlayer.UserId,Enum.ThumbnailType.HeadShot, Enum.ThumbnailSize.Size420x420)
+	
+end
+coroutine.wrap(TJJX_fake_script)()
+local function ZAEPGD_fake_script() -- FirstPageButton.LocalScript 
+	local script = Instance.new('LocalScript', FirstPageButton)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.Parent.MainFirst.Visible = true
+		script.Parent.Parent.Parent.MainSecond.Visible = false
+	end)
+	
+end
+coroutine.wrap(ZAEPGD_fake_script)()
+local function IANS_fake_script() -- TPBtn.LocalScript 
+	local script = Instance.new('LocalScript', TPBtn)
+
+	script.Parent.MouseButton1Click:connect(function()
+		local username = string.lower(Username.Text)
+		local foundChild = false
+		local child
+		for i,v in pairs(game.Players:GetChildren()) do
+			if string.lower(v.Name) == username then
+				foundChild = true
+				child = v
+			end
+		end
+		if foundChild == true then
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = child.Character.HumanoidRootPart.CFrame
+		end
+	end)
+	
+end
+coroutine.wrap(IANS_fake_script)()
